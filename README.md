@@ -13,9 +13,9 @@ The end goal is to build an **end-to-end data pipeline**.
   Postgres setup, ingestion scripts (CSV / CSV.GZ / Parquet), and Docker Compose  
   📂 Implementation: [01-docker-terraform/](01-docker-terraform/)
 
-- [ ] **02-workflow-orchestration** — Mage  
-- [ ] **03-data-warehouse** — BigQuery  
-- [ ] **04-analytics-engineering** — dbt  
-- [ ] **05-batch-processing** — Spark  
-- [ ] **06-streaming** — Kafka  
+- [ ] **02-workflow-orchestration**   
+- [ ] **03-data-warehouse**   
+- [ ] **04-analytics-engineering**  
+- [ ] **05-batch-processing**  
+- [ ] **06-streaming**  
 - [ ] **Capstone Project** + Dashboard (Looker Studio)
