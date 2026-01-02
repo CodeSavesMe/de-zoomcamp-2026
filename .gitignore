@@ -2,6 +2,7 @@
 *.csv
 *.csv.gz
 *.parquet
+ny_data
 
 # Terraform
 .terraform/
@@ -14,9 +15,16 @@ __pycache__/
 *.py[cod]
 venv/
 .env
+.dtc-env
+.idea
+.DS_Store
 
 # Docker
 .docker-volumes/
 
+# logs
+logs/
+
 # OTHER
 final-project-idea.md
+dtc-env
