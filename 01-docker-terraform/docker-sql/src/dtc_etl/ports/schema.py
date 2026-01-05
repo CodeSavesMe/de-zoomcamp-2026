@@ -1,0 +1,10 @@
+# 01-docker-terraform/src/docker-sql/dtc_etl/ports/schema.py
+
+from __future__ import annotations
+
+from typing import Protocol
+
+class SchemaManager(Protocol):
+    def ensure_final_schema(self, file_path: str, final_table_name: str) -> None: ...
+    def recreate_staging_like_final(self, final_table: str, staging_table: str) -> None: ...
+

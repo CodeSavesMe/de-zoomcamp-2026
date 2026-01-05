@@ -1,30 +1,73 @@
-# Data files
+# --- Data Files (Local only) ---
 *.csv
 *.csv.gz
 *.parquet
-ny_data
+*.tsv
+*.tsv.gz
+ny_data/
+data/
 
-# Terraform
+# --- Terraform ---
 .terraform/
 *.tfstate
 *.tfstate.backup
 .terraform.lock.hcl
+*.tfvars
 
-# Python
+# --- Python & Packaging ---
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+env/
 venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Modern Packaging (uv, build, dist) ---
+build/
+dist/
+develop-eggs/
+*.egg-info/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Testing & Quality (Nanti pasti butuh) ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Environment Variables ---
 .env
-.dtc-env
-.idea
+.env.*
+!.env.example
+
+# --- IDEs & System ---
+.idea/
+.vscode/
 .DS_Store
 
-# Docker
+# --- Docker ---
 .docker-volumes/
 
-# logs
+# --- Logs ---
 logs/
+*.log
 
-# OTHER
+# --- Custom / Project Specific ---
+.dtc-de
 final-project-idea.md
 dtc-env
